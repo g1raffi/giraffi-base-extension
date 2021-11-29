@@ -1,0 +1,15 @@
+name: Gluon Base Extension
+description: Gluon Base Extension
+metadata:
+  keywords:
+    - gluon-base-extension
+  guide: none
+  categories:
+    - "gluon"
+    - "cloud"
+  status: "preview"
+  codestart:
+    name: "gluon-base"
+    languages:
+      - "java"
+    artifact: "ch.mobi:gluon-base-extension:codestarts:jar:${project.version}"

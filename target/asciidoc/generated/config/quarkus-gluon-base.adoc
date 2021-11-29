@@ -1,0 +1,55 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference.searchable, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-gluon-base_configuration]]link:#quarkus-gluon-base_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-gluon-base_quarkus.gluon-base.built-for]]`link:#quarkus-gluon-base_quarkus.gluon-base.built-for[quarkus.gluon-base.built-for]`
+
+[.description]
+--
+Config property describing who built the application
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-gluon-base_quarkus.gluon-base.record-build-time]]`link:#quarkus-gluon-base_quarkus.gluon-base.record-build-time[quarkus.gluon-base.record-build-time]`
+
+[.description]
+--
+Dummy
+--|boolean 
+|`true`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-gluon-base_quarkus.gluon-base.always-include]]`link:#quarkus-gluon-base_quarkus.gluon-base.always-include[quarkus.gluon-base.always-include]`
+
+[.description]
+--
+Dummy
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-gluon-base_quarkus.gluon-base.base-path]]`link:#quarkus-gluon-base_quarkus.gluon-base.base-path[quarkus.gluon-base.base-path]`
+
+[.description]
+--
+Dummy
+--|string 
+|`gluon-base`
+
+
+a| [[quarkus-gluon-base_quarkus.gluon-base.run-by]]`link:#quarkus-gluon-base_quarkus.gluon-base.run-by[quarkus.gluon-base.run-by]`
+
+[.description]
+--
+String to determin who's running the application
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+|===

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/runtime/gluon-base-extension.iml" filepath="$PROJECT_DIR$/runtime/gluon-base-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deployment/gluon-base-extension-deployment.iml" filepath="$PROJECT_DIR$/deployment/gluon-base-extension-deployment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluon-base-extension-parent.iml" filepath="$PROJECT_DIR$/gluon-base-extension-parent.iml" />
+    </modules>
+  </component>
+</project>

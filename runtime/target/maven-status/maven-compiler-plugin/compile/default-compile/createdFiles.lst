@@ -1,0 +1,10 @@
+ch/mobi/gluon/base/AppInfo.class
+ch/mobi/gluon/base/AppInfoNames.class
+ch/mobi/gluon/base/AppInfoRecorder.class
+ch/mobi/gluon/base/BuildInfo.class
+ch/mobi/gluon/base/AppInfoServlet.class
+ch/mobi/gluon/base/AppInfoRuntimeConfig.class
+ch/mobi/gluon/base/AppInfoRuntimeConfig$$accessor.class
+ch/mobi/gluon/base/AppInfoService.class
+META-INF/quarkus-javadoc.properties
+META-INF/quarkus-config-roots.list

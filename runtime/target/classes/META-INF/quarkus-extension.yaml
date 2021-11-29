@@ -1,0 +1,28 @@
+---
+name: "Gluon Base Extension"
+description: "Gluon Base Extension"
+metadata:
+  keywords:
+  - "gluon-base-extension"
+  guide: "none"
+  categories:
+  - "gluon"
+  - "cloud"
+  status: "preview"
+  codestart:
+    name: "gluon-base"
+    languages:
+    - "java"
+    artifact: "ch.mobi:gluon-base-extension:codestarts:jar:1.0.1"
+  built-with-quarkus-core: "2.4.2.Final"
+  extension-dependencies:
+  - "io.quarkus:quarkus-arc"
+  - "io.quarkus:quarkus-core"
+  - "io.quarkus:quarkus-undertow"
+  - "io.quarkus:quarkus-vertx-http"
+  - "io.quarkus:quarkus-mutiny"
+  - "io.quarkus:quarkus-smallrye-context-propagation"
+  - "io.quarkus:quarkus-vertx"
+  - "io.quarkus:quarkus-netty"
+  - "io.quarkus:quarkus-jackson"
+artifact: "ch.mobi:gluon-base-extension::jar:1.0.1"

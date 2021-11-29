@@ -1,0 +1,8 @@
+name: gluon-base-codestart
+ref: gluon-base
+type: code
+tags: gluon,base
+metadata:
+  title: Gluon Base Codestart
+  description: Gluon Base Code and Configuration
+  related-guide-section: https://google.com/
