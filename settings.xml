@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>nexus-snapshots</id>
+            <username>deployer</username>
+            <password>abcd</password>
+        </server>
+    </servers>
+</settings>

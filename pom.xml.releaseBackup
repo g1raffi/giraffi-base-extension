@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ch.mobi</groupId>
   <artifactId>gluon-base-extension-parent</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Gluon Base Extension - Parent</name>
   <modules>
@@ -14,7 +13,7 @@
   <distributionManagement>
     <repository>
       <id>nexus-releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+      <url>http://localhost:8081/repository/maven-snapshots</url>
     </repository>
   </distributionManagement>
   <properties>
@@ -117,5 +116,6 @@
   <scm>
     <connection>scm:git:file:///home/rhertle/dev/mobi/gluon/gluon-base-extension</connection>
     <url>file:///home/rhertle/dev/mobi/gluon/gluon-base-extension</url>
+    <tag>HEAD</tag>
   </scm>
 </project>

@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ch.mobi</groupId>
-  <artifactId>gluon-base-extension-parent</artifactId>
-  <version>1.0.1</version>
+  <groupId>ch.giraffi</groupId>
+  <artifactId>giraffi-base-extension-parent</artifactId>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Gluon Base Extension - Parent</name>
+  <name>Giraffi Base Extension - Parent</name>
   <modules>
     <module>deployment</module>
     <module>runtime</module>
   </modules>
   <distributionManagement>
-    <repository>
-      <id>nexus-releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
   </distributionManagement>
+  <repositories>
+    <repository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </repository>
+  </repositories>
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
@@ -104,7 +111,7 @@
               </execution>
             </executions>
             <configuration>
-              <serverId>nexus-releases</serverId>
+              <serverId>nexus-snapshots</serverId>
               <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
               <skipStaging>true</skipStaging>
             </configuration>
@@ -114,8 +121,8 @@
     </profile>
   </profiles>
   <scm>
-    <connection>scm:git:file:///home/rhertle/dev/mobi/gluon/gluon-base-extension</connection>
-    <url>file:///home/rhertle/dev/mobi/gluon/gluon-base-extension</url>
-    <tag>v1.0.1</tag>
+    <connection>scm:git:file:///home/rhertle/dev/giraffi/giraffi-base-extension</connection>
+    <url>file:///home/rhertle/dev/giraffi/giraffi-base-extension</url>
+    <tag>HEAD</tag>
   </scm>
 </project>

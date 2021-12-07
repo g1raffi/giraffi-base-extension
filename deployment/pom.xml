@@ -2,20 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>ch.mobi</groupId>
-    <artifactId>gluon-base-extension-parent</artifactId>
-    <version>1.0.1</version>
+    <groupId>ch.giraffi</groupId>
+    <artifactId>giraffi-base-extension-parent</artifactId>
+    <version>1.0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>gluon-base-extension-deployment</artifactId>
-  <name>Gluon Base Extension - Deployment</name>
+  <artifactId>giraffi-base-extension-deployment</artifactId>
+  <name>Giraffi Base Extension - Deployment</name>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc-deployment</artifactId>
     </dependency>
     <dependency>
-      <groupId>ch.mobi</groupId>
-      <artifactId>gluon-base-extension</artifactId>
+      <groupId>ch.giraffi</groupId>
+      <artifactId>giraffi-base-extension</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

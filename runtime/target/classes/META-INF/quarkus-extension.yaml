@@ -1,19 +1,19 @@
 ---
-name: "Gluon Base Extension"
-description: "Gluon Base Extension"
+name: "Giraffi Base Extension"
+description: "Giraffi Base Extension"
 metadata:
   keywords:
-  - "gluon-base-extension"
+  - "giraffi-base-extension"
   guide: "none"
   categories:
-  - "gluon"
+  - "giraffi"
   - "cloud"
   status: "preview"
   codestart:
-    name: "gluon-base"
+    name: "giraffi-base"
     languages:
     - "java"
-    artifact: "ch.mobi:gluon-base-extension:codestarts:jar:1.0.1"
+    artifact: "ch.giraffi:giraffi-base-extension:codestarts:jar:1.0.4-SNAPSHOT"
   built-with-quarkus-core: "2.4.2.Final"
   extension-dependencies:
   - "io.quarkus:quarkus-arc"
@@ -25,4 +25,4 @@ metadata:
   - "io.quarkus:quarkus-vertx"
   - "io.quarkus:quarkus-netty"
   - "io.quarkus:quarkus-jackson"
-artifact: "ch.mobi:gluon-base-extension::jar:1.0.1"
+artifact: "ch.giraffi:giraffi-base-extension::jar:1.0.4-SNAPSHOT"

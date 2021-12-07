@@ -1,7 +1,7 @@
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/BuildInfo.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfoRecorder.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfoNames.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfoServlet.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfoRuntimeConfig.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfoService.java
-/home/rhertle/dev/mobi/gluon/gluon-base-extension/runtime/src/main/java/ch/mobi/gluon/base/AppInfo.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfoRecorder.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/BuildInfo.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfoService.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfo.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfoRuntimeConfig.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfoServlet.java
+/home/rhertle/dev/giraffi/giraffi-base-extension/runtime/src/main/java/ch/giraffi/base/AppInfoNames.java

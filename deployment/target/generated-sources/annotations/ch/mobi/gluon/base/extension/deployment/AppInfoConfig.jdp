@@ -1,6 +1,0 @@
-#
-#Mon Nov 29 20:28:34 CET 2021
-ch.mobi.gluon.base.extension.deployment.AppInfoConfig.recordBuildTime=Dummy
-ch.mobi.gluon.base.extension.deployment.AppInfoConfig.basePath=Dummy
-ch.mobi.gluon.base.extension.deployment.AppInfoConfig.builtFor=Config property describing who built the application
-ch.mobi.gluon.base.extension.deployment.AppInfoConfig.alwaysInclude=Dummy

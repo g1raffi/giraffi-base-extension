@@ -1,15 +1,15 @@
-name: Gluon Base Extension
-description: Gluon Base Extension
+name: Giraffi Base Extension
+description: Giraffi Base Extension
 metadata:
   keywords:
-    - gluon-base-extension
+    - giraffi-base-extension
   guide: none
   categories:
-    - "gluon"
+    - "giraffi"
     - "cloud"
   status: "preview"
   codestart:
-    name: "gluon-base"
+    name: "giraffi-base"
     languages:
       - "java"
-    artifact: "ch.mobi:gluon-base-extension:codestarts:jar:${project.version}"
+    artifact: "ch.giraffi:giraffi-base-extension:codestarts:jar:${project.version}"
