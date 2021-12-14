@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ch.giraffi</groupId>
   <artifactId>giraffi-base-extension-parent</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
   <name>Giraffi Base Extension - Parent</name>
   <modules>
@@ -16,11 +16,15 @@
       <url>http://localhost:8081/repository/maven-snapshots/</url>
       <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
   <repositories>
     <repository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <id>nexus-releases</id>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
   </repositories>
   <properties>
@@ -111,7 +115,7 @@
               </execution>
             </executions>
             <configuration>
-              <serverId>nexus-snapshots</serverId>
+              <serverId>nexus-releases</serverId>
               <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
               <skipStaging>true</skipStaging>
             </configuration>

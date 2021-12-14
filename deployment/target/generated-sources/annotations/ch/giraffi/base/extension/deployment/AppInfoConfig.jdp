@@ -1,6 +1,0 @@
-#
-#Tue Dec 07 14:48:14 CET 2021
-ch.giraffi.base.extension.deployment.AppInfoConfig.recordBuildTime=Dummy
-ch.giraffi.base.extension.deployment.AppInfoConfig.basePath=Dummy
-ch.giraffi.base.extension.deployment.AppInfoConfig.alwaysInclude=Dummy
-ch.giraffi.base.extension.deployment.AppInfoConfig.builtFor=Config property describing who built the application

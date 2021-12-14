@@ -5,7 +5,7 @@
   <parent>
     <groupId>ch.mobi</groupId>
     <artifactId>gluon-base-extension-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
   <artifactId>gluon-base-extension-integration-tests</artifactId>
   <name>Gluon Base Extension - Integration Tests</name>

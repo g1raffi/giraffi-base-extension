@@ -1,0 +1,8 @@
+name: giraffi-base-codestart
+ref: giraffi-base
+type: code
+tags: giraffi,base
+metadata:
+  title: giraffi Base Codestart
+  description: giraffi Base Code and Configuration
+  related-guide-section: https://google.com/

@@ -5,5 +5,10 @@
             <username>deployer</username>
             <password>abcd</password>
         </server>
+        <server>
+            <id>nexus-releases</id>
+            <username>deployer</username>
+            <password>abcd</password>
+        </server>
     </servers>
 </settings>

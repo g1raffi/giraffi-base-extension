@@ -1,7 +1,0 @@
-ch/giraffi/base/extension/deployment/AppInfoConfig$$accessor.class
-ch/giraffi/base/extension/deployment/GluonBaseExtensionProcessor.class
-ch/giraffi/base/extension/deployment/AppInfoConfig.class
-ch/giraffi/base/extension/deployment/GluonBaseExtensionProcessor$$accessor.class
-META-INF/quarkus-javadoc.properties
-META-INF/quarkus-config-roots.list
-META-INF/quarkus-build-steps.list
